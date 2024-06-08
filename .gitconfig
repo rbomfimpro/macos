@@ -1,0 +1,12 @@
+# ~/.gitconfig
+
+[user]
+  name  = Rodrigo Bomfim
+  email = rbomfim.pro@gmail.com
+
+[init]
+  defaultBranch = main
+
+[alias]
+  df = diff -U0
+  lg = log --oneline --graph
