@@ -16,7 +16,6 @@ brew "speedtest-cli"
 brew "starship"
 brew "terragrunt"
 brew "tree"
-brew "vim"
 brew "wget"
 
 # Brew Cask (GUI)
