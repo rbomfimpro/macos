@@ -77,7 +77,7 @@ Windows          = "󰍲 "
 [directory]
 disabled  = false
 read_only = " 󰌾"
-style     = "bold #2980b9"
+style     = "bold #29c4e2"
 
 [sudo]
 disabled = false
