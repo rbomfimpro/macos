@@ -1,4 +1,7 @@
-# ~/.zshrc
+# $HOME/.oh-my-zsh/custom/aliases.zsh
+
+# ZSH THEME
+ZSH_THEME=""
 
 # STARTSHIP
 # https://starship.rs
@@ -21,9 +24,6 @@ SAVEHIST=50000                # Number of history entries to save to disk
 HISTFILE=~/.zhistory          # Where to save history to disk
 
 # ALIAS
-export CLICOLOR=1
-alias ls='ls -G'
-alias ll='ls -lG'
 alias ssh='ssh -o ServerAliveInterval=15'
 alias git='LANG="en_US.UTF-8" git'
 alias get-ip='dig @8.8.8.8 +short'
@@ -33,7 +33,5 @@ alias lsof-tcp='lsof -nP -iTCP -sTCP:LISTEN'
 alias lsof-udp='lsof -nP -iUDP'
 
 # AUTOCOMPLETE
-autoload -U +X compinit && compinit
-autoload -U +X bashcompinit && bashcompinit
 complete -o nospace -C /opt/homebrew/bin/terraform terraform
 source <(kubectl completion zsh)
